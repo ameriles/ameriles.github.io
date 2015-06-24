@@ -144,11 +144,11 @@ a.yt:hover {
     opacity: 0;
     z-index: 0;
     -webkit-backface-visibility: hidden;
-    -webkit-animation: imageAnimation 18s linear infinite 0;
-    -moz-animation: imageAnimation 18s linear infinite 0;
-    -o-animation: imageAnimation 18s linear infinite 0;
-    -ms-animation: imageAnimation 18s linear infinite 0;
-    animation: imageAnimation 18s linear infinite 0;
+    -webkit-animation: imageAnimation 18s linear infinite;
+    -moz-animation: imageAnimation 18s linear infinite;
+    -o-animation: imageAnimation 18s linear infinite;
+    -ms-animation: imageAnimation 18s linear infinite;
+    animation: imageAnimation 18s linear infinite;
 }
 
 .slideshow li:nth-child(2) span {
