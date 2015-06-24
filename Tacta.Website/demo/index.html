@@ -1,0 +1,201 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>TACTA</title>
+    <link href="../Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="../Content/style.css" rel="stylesheet"/>
+    <link href="../Content/font-awesome.min.css" rel="stylesheet" />
+    <link href="http://fonts.googleapis.com/css?family=Rancho" rel="stylesheet" type="text/css" />
+    <link href="http://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet" type="text/css" />
+    <link href="http://fonts.googleapis.com/css?family=Gudea" rel="stylesheet" type="text/css" />
+    <script src="../Scripts/jquery-1.9.1.min.js"></script>
+    <script src="../Scripts/bootstrap.min.js"></script>
+</head>
+<body>
+    <section id="slider" class="page-section">
+        <ul class="slideshow">
+            <li><span style="background-image: url('../Content/Images/img1.jpg')"></span></li>
+            <li><span style="background-image: url('../Content/Images/img2.jpg')"></span></li>
+            <li><span style="background-image: url('../Content/Images/img3.jpg')"></span></li>
+        </ul>
+
+        <h1>Dúo Tacta</h1>
+
+        <div id="social">
+            <a class="social-button fb" href="https://www.facebook.com/duotacta"><span class="fa fa-4x fa-facebook"></span></a>
+            <a class="social-button tw" href="https://twitter.com/duotacta"><span class="fa fa-4x fa-twitter"></span></a>
+            <a class="social-button yt" href="https://www.youtube.com/channel/UCGfWOKrIESIkEbKxDmtDZgg"><span class="fa fa-4x fa-youtube"></span></a>
+        </div>
+        <div id="scroll-down-zone">
+            <a href="javascript:;"><span class="fa fa-3x fa-chevron-circle-down"></span></a>
+        </div>
+    </section>
+    <section id="content" class="page-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h2>Más...</h2>
+                    <hr />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-4">
+                    <div class="tile">
+                        <a href="#">
+                            <div class="tile-image">
+                                <img src="../Content/Images/tile1.jpg" />
+                            </div>
+                            <div class="inner">
+                                <h3>Imágenes</h3>
+                                <hr />
+                                <p>Lorem impsum dolor sit amet</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-4">
+                    <div class="tile">
+                        <a href="#">
+                            <div class="tile-image">
+                                <img src="../Content/Images/tile2.jpg" />
+                            </div>
+                            <div class="inner">
+                                <h3>Conciertos</h3>
+                                <hr />
+                                <p>Lorem impsum dolor sit amet</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-4">
+                    <div class="tile">
+                        <a href="#">
+                            <div class="tile-image">
+                                <img src="../Content/Images/tile3.jpg" />
+                            </div>
+                            <div class="inner">
+                                <h3>Canciones</h3>
+                                <hr />
+                                <p>Lorem impsum dolor sit amet</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <h3>Dúo Tacta</h3>
+                    <p class="main-paragraph">Mi ullamcorper elementum vehicula ut eros vehicula vehicula ullamcorper felis lobortis commodo primis fringilla mattis vestibulum cum dis a ridiculus tincidunt ac in amet consequat dapibus a.Aenean litora vestibulum eu lectus ut litora platea aliquet a tempus consectetur suspendisse in aliquet habitant a accumsan hendrerit id parturient ridiculus velit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="page-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h2>Contacto</h2>
+                    <hr />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <img src="../Content/Images/body1.jpg" alt="Dúo Tacta" class="img-responsive img-rounded" style="width: 100%"/>
+                    <hr />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-4">
+                    <h4>E-Mail</h4>
+                    <p>
+                        <span class="fa fa-envelope"></span>
+                        duotacta@gmail.com
+                    </p>
+                </div>
+                <div class="col-xs-4">
+                    <h4>Teléfono</h4>
+                    <p>
+                        <span class="fa fa-phone"></span>
+                        +54 388 5999999
+                    </p>
+                </div>
+                <div class="col-xs-4">
+                    <h4>Redes Sociales</h4>
+                    <p>
+                        <div>
+                            <a href="https://www.facebook.com/duotacta">
+                                <span class="fa fa-facebook-square"></span>
+                                Facebook
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://twitter.com/duotacta">
+                                <span class="fa fa-twitter-square"></span>
+                                Twitter
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://www.youtube.com/channel/UCGfWOKrIESIkEbKxDmtDZgg">
+                                <span class="fa fa-youtube-square"></span>
+                                YouTube
+                            </a>
+                        </div>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        $(function () {
+            var isScrolling = false;
+
+            function fixCenter(el) {
+                el.css('margin-left', (-(el.outerWidth() / 2)) + 'px');
+            }
+
+            function scrollTo(el) {
+                isScrolling = true;
+                $('html,body').animate({ scrollTop: el.offset().top }, 'slow', 'swing', function () {
+                    isScrolling = false;
+                });
+            }
+
+            var sections = $('section.page-section');
+            var sectionIndex = 0;
+
+            fixCenter($('#social'));
+            fixCenter($('#scroll-down-zone'));
+
+            $('#scroll-down-zone a').on('mouseover', function () {
+                $(this).addClass('animated-pulse');
+            }).on('mouseout', function () {
+                $(this).removeClass('animated-pulse');
+            }).on('click', function () {
+                scrollTo($(sections[++sectionIndex]));
+            });
+
+            $('.tile').on('mouseover', function () {
+                $(this).addClass('hovered');
+            }).on('mouseout', function () {
+                $(this).removeClass('hovered');
+            });
+
+            $(window).bind('mousewheel DOMMouseScroll', function (event) {
+                if (!isScrolling) {
+                    if (event.originalEvent.wheelDelta > 0 || event.originalEvent.detail < 0) {
+                        sectionIndex = Math.max(sectionIndex - 1, 0);
+                    } else {
+                        sectionIndex = Math.min(sectionIndex + 1, sections.length - 1);
+                    }
+
+                    scrollTo($(sections[sectionIndex]));
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>

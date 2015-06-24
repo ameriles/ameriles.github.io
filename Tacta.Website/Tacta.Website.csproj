@@ -92,6 +92,7 @@
     <Content Include="Content\Images\tile2.jpg" />
     <Content Include="Content\Images\tile3.jpg" />
     <Content Include="Content\style.css" />
+    <Content Include="demo\index.html" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\bootstrap.css.map" />
